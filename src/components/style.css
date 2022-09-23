@@ -1,0 +1,60 @@
+.rounded-md {
+    border-radius: 0.375rem;
+}
+
+.w-full {
+    width: 20%;
+}
+
+.border-gray-400 {
+    --border-opacity: 1;
+    border-color: #cbd5e0;
+    border-color: rgba(203, 213, 224, var(--border-opacity));
+}
+
+.border {
+    border-width: 1px;
+}
+
+.p-3 {
+    padding: 0.75rem;
+}
+
+.mb-5 {
+    margin-bottom: 1.25rem;
+}
+
+.button-class {
+    width: 7%;
+    margin-left: 5%;
+    border-radius: 0.375rem;
+    border-width: 0.09rem;
+    height: 4vmin;
+}
+
+.todo {
+    padding: 12px;
+    background: #b8ebe4;
+    margin-bottom: 24px;
+    width: 50ch;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2ch;
+  }
+  
+  .todo .name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .todo .deleteButton {
+    background: rgb(255, 12, 61);
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-top: 12px;
+    padding: 8px 10px;
+    border-radius :2ch;
+  }
